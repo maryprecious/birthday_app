@@ -11,7 +11,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 201, 217, 224),
+      backgroundColor:  Color.fromARGB(255, 201, 217, 224),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -34,10 +34,10 @@ class _HomePageState extends State<HomePage> {
 
               SizedBox(height: 8),
               Text(
-              "<IZUCHUKWU AGOGBUA>",
+              "IZUCHUKWU AGOGBUA",
               style: TextStyle(
                 fontSize: 32,
-                color: const Color.fromARGB(255, 6, 77, 110)
+                color:  Color.fromARGB(255, 6, 77, 110)
               ),),
 
               SizedBox(height: 14),
@@ -46,19 +46,19 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   Icon(Icons.celebration,
                   size: 80,
-                  color: const Color.fromARGB(255, 218, 198, 23),),
+                  color:  Color.fromARGB(255, 218, 198, 23),),
                   SizedBox(width: 13),
                   Icon(Icons.card_giftcard,
                   size: 80,
-                  color: const Color.fromARGB(255, 218, 198, 23),),
+                  color: Color.fromARGB(255, 218, 198, 23),),
                   SizedBox(width: 13),
                   Icon(Icons.favorite,
                   size: 80,
-                  color: const Color.fromARGB(255, 218, 198, 23),),
+                  color: Color.fromARGB(255, 218, 198, 23),),
                   SizedBox(width: 13),
                   Icon(Icons.star,
                   size: 80,
-                  color: const Color.fromARGB(255, 218, 198, 23),),
+                  color:  Color.fromARGB(255, 218, 198, 23),),
                 ],
               )
 

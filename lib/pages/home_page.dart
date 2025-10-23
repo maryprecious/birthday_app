@@ -38,7 +38,7 @@ class _HomePageState extends State<HomePage> {
                     
                   SizedBox(height: 8),
                   Text(
-                  "MR Anthony",
+                  "MR Agoz",
                   style: TextStyle(
                     fontSize: 32,
                     color:  Color.fromARGB(255, 6, 77, 110)
